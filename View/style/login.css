@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 1fr;
+    vertical-align: middle;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr;
+    margin: 15px;
+}
+
+.signin {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+.signin_logo{
+    flex: 1;
+    text-align: left;
+}
+.brand_logo{
+    flex: 1;
+    text-align: right;
+}
+
+
+
+
